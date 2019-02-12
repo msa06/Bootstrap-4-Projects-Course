@@ -1,0 +1,53 @@
+:root{
+  --background_body:rgb(42, 42, 42);
+  --text_color:white;
+
+  --nav_border:#2475B0;
+}
+body{
+  background: var(--background_body);
+  color:var(--text_color);
+}
+.navbar{
+  font-weight: bold;
+  color:var(--text_color);
+  opacity: 0.9;
+}
+
+#home-section{
+  background: url(../img/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 650px;
+}
+#home-section .dark-overlay{
+  position: absolute;
+  top:0px;
+  left:0px;
+  width: 100%;
+  min-height: 650px;
+  background-color: rgba(00,00,00,0.7);
+}
+#home-section .home-inner{
+  margin-top:140px;
+  padding-bottom: 10px;
+}
+
+#home-section .card-form{
+  opacity: 0.9;
+}
+
+#home-section .fas, #create-section .fas{
+  background:white;
+  padding: 5px;
+  border-radius: 5px;
+  color: #2475B0;
+}
+#explore-section .fas, #share-section .fas{
+  background:#333;
+  color:white;
+  border-radius: 5px;
+  padding: 5px;
+}
